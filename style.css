@@ -1,0 +1,35 @@
+html, body {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.console {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#output {
+    flex: 1;
+    overflow-y: auto;
+    white-space: pre-wrap;
+}
+
+input {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}

@@ -1,0 +1,5 @@
+{
+    "help": "Available commands: help, greet, date",
+    "greet": "Hello, user!",
+    "date": "date"
+}
